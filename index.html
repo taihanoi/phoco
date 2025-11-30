@@ -3,7 +3,58 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Phố Cổ Hà Nội | Nét Đẹp Ngàn Năm</title>
+   
+   <!-- SEO PRO TAGS -->
+   <title>Phố Cổ Hà Nội | Cẩm Nang Du Lịch & Khám Phá 36 Phố Phường</title>
+   <meta name="description" content="Khám phá Phố Cổ Hà Nội: Hướng dẫn chi tiết lịch sử 36 phố phường, bản đồ ẩm thực, điểm check-in hot nhất và lịch trình 1 ngày trọn vẹn. Xem ngay!">
+   <meta name="keywords" content="phố cổ hà nội, 36 phố phường, du lịch hà nội, ẩm thực phố cổ, hồ gươm, kinh nghiệm đi phố cổ, lịch trình hà nội 1 ngày">
+   <meta name="author" content="Hanoi Old Quarter Team">
+   <meta name="robots" content="index, follow">
+   <link rel="canonical" href="https://taihanoi.github.io/phoco/">
+
+   <!-- OPEN GRAPH / FACEBOOK -->
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://taihanoi.github.io/phoco/">
+   <meta property="og:title" content="Phố Cổ Hà Nội | Nét Đẹp Ngàn Năm Văn Hiến">
+   <meta property="og:description" content="Tổng hợp kinh nghiệm du lịch Phố Cổ Hà Nội từ A-Z. Khám phá văn hóa, ẩm thực và lịch sử đất Kinh Kỳ.">
+   <meta property="og:image" content="https://images.unsplash.com/photo-1555921015-5532091f6026?q=80&w=2070&auto=format&fit=crop">
+
+   <!-- SCHEMA MARKUP (JSON-LD) -->
+   <script type="application/ld+json">
+   {
+     "@context": "https://schema.org",
+     "@type": "TouristAttraction",
+     "name": "Phố Cổ Hà Nội",
+     "description": "Khu vực đô thị cổ nằm ở trung tâm Hà Nội với 36 phố phường, nổi tiếng với lịch sử lâu đời và văn hóa đặc sắc.",
+     "url": "https://taihanoi.github.io/phoco/",
+     "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Hoàn Kiếm",
+       "addressRegion": "Hà Nội",
+       "addressCountry": "VN"
+     },
+     "geo": {
+       "@type": "GeoCoordinates",
+       "latitude": "21.033333",
+       "longitude": "105.85"
+     },
+     "openingHoursSpecification": {
+       "@type": "OpeningHoursSpecification",
+       "dayOfWeek": [
+         "Monday",
+         "Tuesday",
+         "Wednesday",
+         "Thursday",
+         "Friday",
+         "Saturday",
+         "Sunday"
+       ],
+       "opens": "00:00",
+       "closes": "23:59"
+     }
+   }
+   </script>
+
    <script src="https://cdn.tailwindcss.com"></script>
    <script src="https://unpkg.com/lucide@latest"></script>
    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -74,18 +125,18 @@
                    <span class="font-serif text-2xl font-bold text-hanoi-red tracking-tight">Hanoi<span class="text-hanoi-gold">OldQuarter</span></span>
                </div>
 
-               <!-- Desktop Menu -->
+               <!-- Desktop Menu with Icons -->
                <div class="hidden xl:flex space-x-6 items-center">
-                   <a href="#intro" class="text-sm font-medium hover:text-hanoi-gold transition-colors">Giới thiệu</a>
-                   <a href="#history" class="text-sm font-medium hover:text-hanoi-gold transition-colors">Lịch sử</a>
-                   <a href="#destinations" class="text-sm font-medium hover:text-hanoi-gold transition-colors">Địa điểm</a>
-                   <a href="#cuisine" class="text-sm font-medium hover:text-hanoi-gold transition-colors">Ẩm thực</a>
-                   <a href="#culture" class="text-sm font-medium hover:text-hanoi-gold transition-colors">Văn hóa</a>
-                   <a href="#stay" class="text-sm font-medium hover:text-hanoi-gold transition-colors">Lưu trú</a>
-                   <a href="#transport" class="text-sm font-medium hover:text-hanoi-gold transition-colors">Di chuyển</a>
-                   <a href="#schedule" class="text-sm font-medium hover:text-hanoi-gold transition-colors">Lịch trình</a>
-                   <a href="#tips" class="text-sm font-medium hover:text-hanoi-gold transition-colors">Lưu ý</a>
-                   <a href="#contact" class="px-5 py-2.5 bg-hanoi-dark text-white rounded-full text-sm font-medium hover:bg-hanoi-red transition-colors shadow-lg">Liên hệ</a>
+                   <a href="#intro" class="text-sm font-medium hover:text-hanoi-gold transition-colors flex items-center gap-1.5"><i data-lucide="info" class="w-4 h-4"></i> Giới thiệu</a>
+                   <a href="#history" class="text-sm font-medium hover:text-hanoi-gold transition-colors flex items-center gap-1.5"><i data-lucide="scroll" class="w-4 h-4"></i> Lịch sử</a>
+                   <a href="#destinations" class="text-sm font-medium hover:text-hanoi-gold transition-colors flex items-center gap-1.5"><i data-lucide="map-pin" class="w-4 h-4"></i> Địa điểm</a>
+                   <a href="#cuisine" class="text-sm font-medium hover:text-hanoi-gold transition-colors flex items-center gap-1.5"><i data-lucide="utensils" class="w-4 h-4"></i> Ẩm thực</a>
+                   <a href="#culture" class="text-sm font-medium hover:text-hanoi-gold transition-colors flex items-center gap-1.5"><i data-lucide="flower" class="w-4 h-4"></i> Văn hóa</a>
+                   <a href="#stay" class="text-sm font-medium hover:text-hanoi-gold transition-colors flex items-center gap-1.5"><i data-lucide="bed" class="w-4 h-4"></i> Lưu trú</a>
+                   <a href="#transport" class="text-sm font-medium hover:text-hanoi-gold transition-colors flex items-center gap-1.5"><i data-lucide="bus" class="w-4 h-4"></i> Di chuyển</a>
+                   <a href="#schedule" class="text-sm font-medium hover:text-hanoi-gold transition-colors flex items-center gap-1.5"><i data-lucide="calendar" class="w-4 h-4"></i> Lịch trình</a>
+                   <a href="#tips" class="text-sm font-medium hover:text-hanoi-gold transition-colors flex items-center gap-1.5"><i data-lucide="lightbulb" class="w-4 h-4"></i> Lưu ý</a>
+                   <a href="#contact" class="px-5 py-2.5 bg-hanoi-dark text-white rounded-full text-sm font-medium hover:bg-hanoi-red transition-colors shadow-lg flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4"></i> Liên hệ</a>
                </div>
 
                <!-- Mobile Menu Button -->
@@ -96,19 +147,19 @@
                </div>
            </div>
        </div>
-       <!-- Mobile Menu Panel -->
-       <div class="xl:hidden hidden bg-white border-t border-gray-100 absolute w-full" id="mobile-menu">
-           <div class="px-4 pt-2 pb-4 space-y-1 shadow-ultra">
-               <a href="#intro" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red">Giới thiệu</a>
-               <a href="#history" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red">Lịch sử</a>
-               <a href="#destinations" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red">Địa điểm</a>
-               <a href="#cuisine" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red">Ẩm thực</a>
-               <a href="#culture" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red">Văn hóa</a>
-               <a href="#stay" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red">Lưu trú</a>
-               <a href="#transport" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red">Di chuyển</a>
-               <a href="#schedule" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red">Lịch trình</a>
-               <a href="#tips" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red">Lưu ý</a>
-               <a href="#contact" class="block px-3 py-2 mt-2 bg-hanoi-red text-white text-center rounded-lg font-bold">Liên hệ ngay</a>
+       <!-- Mobile Menu Panel with Icons (Sidebar style) -->
+       <div class="xl:hidden hidden bg-white border-t border-gray-100 absolute w-full h-screen overflow-y-auto pb-20" id="mobile-menu">
+           <div class="px-4 pt-4 pb-4 space-y-2 shadow-ultra">
+               <a href="#intro" class="flex items-center gap-3 px-3 py-3 rounded-xl text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red transition-colors"><i data-lucide="info" class="w-5 h-5 text-gray-400"></i> Giới thiệu</a>
+               <a href="#history" class="flex items-center gap-3 px-3 py-3 rounded-xl text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red transition-colors"><i data-lucide="scroll" class="w-5 h-5 text-gray-400"></i> Lịch sử</a>
+               <a href="#destinations" class="flex items-center gap-3 px-3 py-3 rounded-xl text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red transition-colors"><i data-lucide="map-pin" class="w-5 h-5 text-gray-400"></i> Địa điểm</a>
+               <a href="#cuisine" class="flex items-center gap-3 px-3 py-3 rounded-xl text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red transition-colors"><i data-lucide="utensils" class="w-5 h-5 text-gray-400"></i> Ẩm thực</a>
+               <a href="#culture" class="flex items-center gap-3 px-3 py-3 rounded-xl text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red transition-colors"><i data-lucide="flower" class="w-5 h-5 text-gray-400"></i> Văn hóa</a>
+               <a href="#stay" class="flex items-center gap-3 px-3 py-3 rounded-xl text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red transition-colors"><i data-lucide="bed" class="w-5 h-5 text-gray-400"></i> Lưu trú</a>
+               <a href="#transport" class="flex items-center gap-3 px-3 py-3 rounded-xl text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red transition-colors"><i data-lucide="bus" class="w-5 h-5 text-gray-400"></i> Di chuyển</a>
+               <a href="#schedule" class="flex items-center gap-3 px-3 py-3 rounded-xl text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red transition-colors"><i data-lucide="calendar" class="w-5 h-5 text-gray-400"></i> Lịch trình</a>
+               <a href="#tips" class="flex items-center gap-3 px-3 py-3 rounded-xl text-base font-medium hover:bg-hanoi-cream hover:text-hanoi-red transition-colors"><i data-lucide="lightbulb" class="w-5 h-5 text-gray-400"></i> Lưu ý</a>
+               <a href="#contact" class="flex items-center justify-center gap-2 px-3 py-3 mt-4 bg-hanoi-red text-white text-center rounded-xl font-bold shadow-lg"><i data-lucide="phone" class="w-5 h-5"></i> Liên hệ ngay</a>
            </div>
        </div>
    </nav>
@@ -117,28 +168,28 @@
    <section class="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
        <!-- Background Image -->
        <div class="absolute inset-0 z-0">
-           <img src="https://images.unsplash.com/photo-1555921015-5532091f6026?q=80&w=2070&auto=format&fit=crop" alt="Hanoi Old Quarter" class="w-full h-full object-cover">
+           <img src="https://images.unsplash.com/photo-1555921015-5532091f6026?q=80&w=2070&auto=format&fit=crop" alt="Hanoi Old Quarter landscape" class="w-full h-full object-cover">
            <!-- Gradient Overlay -->
            <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-hanoi-cream"></div>
        </div>
        
-       <div class="relative z-10 text-center px-4 max-w-4xl mx-auto" style="margin-top: -3rem;">
+       <div class="relative z-10 text-center px-4 max-w-5xl mx-auto" style="margin-top: -3rem;">
            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white text-sm font-medium mb-6">
                <span class="w-2 h-2 rounded-full bg-hanoi-gold animate-pulse"></span>
-               Khám phá trái tim Hà Nội
+               Kinh nghiệm du lịch Hà Nội 2024
            </div>
            <h1 class="font-serif text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
                Phố Cổ <br/> <span class="text-transparent bg-clip-text bg-gradient-to-r from-hanoi-gold to-yellow-200">Hà Nội</span>
            </h1>
-           <p class="text-gray-200 text-lg md:text-xl mb-10 max-w-2xl mx-auto font-light">
-               Nơi lưu giữ hồn thiêng ngàn năm văn hiến, sự giao thoa giữa nét cổ kính rêu phong và nhịp sống hiện đại.
+           <p class="text-gray-200 text-lg md:text-xl mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+               Khám phá trái tim thủ đô ngàn năm văn hiến. Hướng dẫn chi tiết về lịch sử, ẩm thực, và những điểm check-in không thể bỏ lỡ tại 36 phố phường.
            </p>
            <div class="flex flex-col sm:flex-row gap-4 justify-center">
                <a href="#intro" class="px-8 py-4 bg-hanoi-gold text-hanoi-dark rounded-full font-bold hover:bg-white transition-all shadow-glow flex items-center justify-center gap-2">
                    Khám phá ngay <i data-lucide="arrow-right" class="w-5 h-5"></i>
                </a>
-               <a href="#schedule" class="px-8 py-4 bg-white/10 backdrop-blur-md border border-white/30 text-white rounded-full font-bold hover:bg-white/20 transition-all flex items-center justify-center">
-                   Lên lịch trình
+               <a href="#schedule" class="px-8 py-4 bg-white/10 backdrop-blur-md border border-white/30 text-white rounded-full font-bold hover:bg-white/20 transition-all flex items-center justify-center gap-2">
+                   <i data-lucide="calendar" class="w-5 h-5"></i> Lên lịch trình
                </a>
            </div>
        </div>
@@ -153,23 +204,28 @@
        <div class="max-w-6xl mx-auto px-4">
            <div class="grid md:grid-cols-2 gap-12 items-center">
                <div>
-                   <span class="text-hanoi-red font-bold uppercase tracking-widest text-sm mb-2 block">Tổng quan</span>
-                   <h2 class="font-serif text-4xl font-bold text-hanoi-dark mb-6">36 Phố Phường</h2>
-                   <p class="text-gray-600 mb-6 leading-relaxed text-justify">
-                       Phố cổ Hà Nội là tên gọi thông thường của một khu vực đô thị có từ lâu đời của Hà Nội nằm ở ngoài hoàng thành Thăng Long. Khu đô thị này tập trung nhiều hoạt động tiểu thủ công nghiệp và buôn bán giao thương, hình thành nên những phố nghề đặc trưng, mang đậm nét truyền thống.
-                   </p>
+                   <span class="text-hanoi-red font-bold uppercase tracking-widest text-sm mb-2 block">Về Phố Cổ</span>
+                   <h2 class="font-serif text-4xl font-bold text-hanoi-dark mb-6">Hồn thiêng 36 Phố Phường</h2>
+                   <div class="prose text-gray-600 mb-6 leading-relaxed text-justify">
+                       <p class="mb-4">
+                           <strong>Phố cổ Hà Nội</strong> không chỉ là một địa điểm du lịch, mà là nơi lưu giữ ký ức sống động về một Thăng Long - Kẻ Chợ sầm uất. Nằm ở phía Đông Hoàng thành Thăng Long ra đến sát sông Hồng, khu vực này từ thế kỷ 11 đã nổi tiếng với các hoạt động thủ công nghiệp và giao thương buôn bán.
+                       </p>
+                       <p>
+                           Ngày nay, dù nhịp sống hiện đại đã len lỏi vào từng ngõ ngách, du khách vẫn dễ dàng bắt gặp những mái ngói rêu phong, những ngôi nhà ống đặc trưng và nếp sống hào hoa, thanh lịch của người Tràng An. <a href="https://taihanoi.github.io/phoco/" class="text-hanoi-red font-bold hover:underline">Khám phá Phố Cổ</a> chính là hành trình chạm vào quá khứ vàng son giữa lòng thủ đô hiện đại.
+                       </p>
+                   </div>
                    <div class="grid grid-cols-3 gap-4 mt-8">
                        <div class="p-4 bg-white rounded-2xl shadow-sm text-center border border-gray-100">
                            <h3 class="text-3xl font-bold text-hanoi-gold">36+</h3>
-                           <p class="text-xs text-gray-500 font-medium uppercase mt-1">Phố nghề</p>
+                           <p class="text-xs text-gray-500 font-medium uppercase mt-1">Phố nghề gốc</p>
                        </div>
                        <div class="p-4 bg-white rounded-2xl shadow-sm text-center border border-gray-100">
-                           <h3 class="text-3xl font-bold text-hanoi-green">1000</h3>
-                           <p class="text-xs text-gray-500 font-medium uppercase mt-1">Năm tuổi</p>
+                           <h3 class="text-3xl font-bold text-hanoi-green">100+</h3>
+                           <p class="text-xs text-gray-500 font-medium uppercase mt-1">Di tích lịch sử</p>
                        </div>
                        <div class="p-4 bg-white rounded-2xl shadow-sm text-center border border-gray-100">
                            <h3 class="text-3xl font-bold text-hanoi-red">24/7</h3>
-                           <p class="text-xs text-gray-500 font-medium uppercase mt-1">Nhịp sống</p>
+                           <p class="text-xs text-gray-500 font-medium uppercase mt-1">Ẩm thực đêm</p>
                        </div>
                    </div>
                </div>
@@ -181,7 +237,7 @@
                    <div class="text-center relative z-10">
                        <i data-lucide="map" class="w-24 h-24 text-white/90 mx-auto mb-4 stroke-1"></i>
                        <h3 class="text-white font-serif text-2xl">Trái tim Thủ Đô</h3>
-                       <p class="text-white/70 text-sm mt-2">Điểm đến không thể bỏ lỡ</p>
+                       <p class="text-white/70 text-sm mt-2">Điểm đến văn hóa & lịch sử</p>
                    </div>
                </div>
            </div>
@@ -192,8 +248,9 @@
    <section id="history" class="section-padding bg-white">
        <div class="max-w-5xl mx-auto px-4">
            <div class="text-center mb-16">
-               <span class="text-hanoi-red font-bold uppercase tracking-widest text-sm">Dòng chảy thời gian</span>
-               <h2 class="font-serif text-3xl md:text-4xl font-bold text-hanoi-dark mt-2">Lịch sử hình thành</h2>
+               <span class="text-hanoi-red font-bold uppercase tracking-widest text-sm">Dòng chảy lịch sử</span>
+               <h2 class="font-serif text-3xl md:text-4xl font-bold text-hanoi-dark mt-2">Từ Thăng Long đến Hà Nội</h2>
+               <p class="text-gray-500 mt-4 max-w-2xl mx-auto">Lịch sử hình thành và phát triển của khu phố cổ gắn liền với sự thăng trầm của kinh thành Thăng Long qua các triều đại.</p>
            </div>
            
            <div class="relative border-l-2 border-gray-200 ml-4 md:ml-0 md:pl-0 space-y-12">
@@ -201,13 +258,15 @@
                <div class="relative md:grid md:grid-cols-2 md:gap-12 md:items-center">
                    <div class="hidden md:block text-right">
                         <span class="text-5xl font-black text-gray-100 absolute right-8 -top-4 -z-10">Lý</span>
-                       <h3 class="text-xl font-bold text-hanoi-dark">Thời Lý - Trần</h3>
-                       <p class="text-gray-500 mt-2">Khu vực dân cư đông đúc hình thành quanh kinh thành Thăng Long.</p>
+                       <h3 class="text-xl font-bold text-hanoi-dark">Thời Lý - Trần (Thế kỷ 11-15)</h3>
+                       <p class="text-gray-500 mt-2 text-justify md:text-right">
+                           Ngay sau khi vua Lý Thái Tổ dời đô về Thăng Long, khu vực này đã hình thành các phường hội thủ công sầm uất. Sông Tô Lịch và sông Hồng đóng vai trò huyết mạch giao thông, biến nơi đây thành trung tâm buôn bán bậc nhất xứ Bắc.
+                       </p>
                    </div>
                    <div class="absolute -left-[9px] md:left-1/2 md:-ml-[9px] w-5 h-5 rounded-full bg-hanoi-gold border-4 border-white shadow-md"></div>
                    <div class="pl-8 md:pl-0 md:hidden">
                        <h3 class="text-xl font-bold text-hanoi-dark">Thời Lý - Trần</h3>
-                       <p class="text-gray-500 mt-2">Khu vực dân cư đông đúc hình thành quanh kinh thành Thăng Long.</p>
+                       <p class="text-gray-500 mt-2 text-justify">Khu vực dân cư và thương mại hình thành quanh kinh thành, tận dụng giao thông thủy thuận lợi.</p>
                    </div>
                    <div class="hidden md:block"></div> <!-- Spacer -->
                </div>
@@ -218,8 +277,10 @@
                    <div class="absolute -left-[9px] md:left-1/2 md:-ml-[9px] w-5 h-5 rounded-full bg-hanoi-red border-4 border-white shadow-md"></div>
                    <div class="pl-8 md:pl-0">
                         <span class="text-5xl font-black text-gray-100 absolute -z-10 -top-4">Lê</span>
-                       <h3 class="text-xl font-bold text-hanoi-dark">Thời Lê</h3>
-                       <p class="text-gray-500 mt-2">Được chia thành 36 phường thuộc hai huyện Vĩnh Thuận và Thọ Xương.</p>
+                       <h3 class="text-xl font-bold text-hanoi-dark">Thời Lê (Thế kỷ 15-18)</h3>
+                       <p class="text-gray-500 mt-2 text-justify">
+                           Đây là giai đoạn phát triển cực thịnh. Khu vực được chia thành 36 phường thuộc hai huyện Vĩnh Thuận và Thọ Xương. Các phố nghề chuyên biệt như Hàng Bạc, Hàng Đào, Hàng Mã bắt đầu định hình rõ nét thương hiệu.
+                       </p>
                    </div>
                </div>
 
@@ -227,13 +288,15 @@
                <div class="relative md:grid md:grid-cols-2 md:gap-12 md:items-center">
                    <div class="hidden md:block text-right">
                        <span class="text-5xl font-black text-gray-100 absolute right-8 -top-4 -z-10">Nay</span>
-                       <h3 class="text-xl font-bold text-hanoi-dark">Thời kỳ Pháp thuộc & Hiện đại</h3>
-                       <p class="text-gray-500 mt-2">Giao thoa kiến trúc phương Tây và giữ gìn bản sắc phố nghề truyền thống.</p>
+                       <h3 class="text-xl font-bold text-hanoi-dark">Thời Pháp thuộc & Hiện đại</h3>
+                       <p class="text-gray-500 mt-2 text-justify md:text-right">
+                           Người Pháp đã quy hoạch lại, du nhập kiến trúc phương Tây tạo nên sự giao thoa độc đáo (Indochine). Ngày nay, <a href="https://taihanoi.github.io/phoco/" class="text-hanoi-red hover:underline">du lịch phố cổ Hà Nội</a> là sự hòa quyện giữa bảo tồn di sản và nhịp sống thương mại hiện đại.
+                       </p>
                    </div>
                    <div class="absolute -left-[9px] md:left-1/2 md:-ml-[9px] w-5 h-5 rounded-full bg-hanoi-green border-4 border-white shadow-md"></div>
                    <div class="pl-8 md:pl-0 md:hidden">
                        <h3 class="text-xl font-bold text-hanoi-dark">Hiện đại</h3>
-                       <p class="text-gray-500 mt-2">Giao thoa kiến trúc phương Tây và giữ gìn bản sắc phố nghề truyền thống.</p>
+                       <p class="text-gray-500 mt-2 text-justify">Sự giao thoa giữa kiến trúc Pháp cổ, nhà ống truyền thống và nhịp sống du lịch sôi động.</p>
                    </div>
                </div>
            </div>
@@ -245,49 +308,50 @@
        <div class="max-w-7xl mx-auto px-4">
            <div class="flex flex-col md:flex-row justify-between items-end mb-12">
                <div>
-                   <span class="text-hanoi-green font-bold uppercase tracking-widest text-sm">Điểm đến</span>
-                   <h2 class="font-serif text-3xl md:text-4xl font-bold text-hanoi-dark mt-2">Danh thắng nổi bật</h2>
+                   <span class="text-hanoi-green font-bold uppercase tracking-widest text-sm">Check-in</span>
+                   <h2 class="font-serif text-3xl md:text-4xl font-bold text-hanoi-dark mt-2">Địa điểm tham quan nổi tiếng</h2>
+                   <p class="text-gray-500 mt-2">Những danh thắng không thể bỏ qua khi đặt chân đến mảnh đất kinh kỳ.</p>
                </div>
                <button class="hidden md:flex items-center gap-2 text-hanoi-red font-medium hover:gap-3 transition-all">
-                   Xem tất cả <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                   Xem bản đồ <i data-lucide="map" class="w-4 h-4"></i>
                </button>
            </div>
 
            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                <!-- Card 1 -->
-               <div class="bg-white p-6 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group cursor-pointer">
+               <div class="bg-white p-6 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group cursor-pointer h-full flex flex-col">
                    <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 mb-6 group-hover:scale-110 transition-transform">
                        <i data-lucide="waves" class="w-8 h-8"></i>
                    </div>
                    <h3 class="text-xl font-bold text-gray-900 mb-2">Hồ Hoàn Kiếm</h3>
-                   <p class="text-gray-500 text-sm">Trái tim của thủ đô với Tháp Rùa và Đền Ngọc Sơn cổ kính.</p>
+                   <p class="text-gray-500 text-sm flex-grow text-justify">Biểu tượng của thủ đô gắn liền với truyền thuyết vua Lê Lợi trả gươm thần. Đừng quên ghé thăm Đền Ngọc Sơn và cầu Thê Húc rực đỏ.</p>
                </div>
 
                <!-- Card 2 -->
-               <div class="bg-white p-6 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group cursor-pointer">
+               <div class="bg-white p-6 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group cursor-pointer h-full flex flex-col">
                    <div class="w-14 h-14 bg-amber-50 rounded-2xl flex items-center justify-center text-amber-600 mb-6 group-hover:scale-110 transition-transform">
                        <i data-lucide="church" class="w-8 h-8"></i>
                    </div>
                    <h3 class="text-xl font-bold text-gray-900 mb-2">Đền Bạch Mã</h3>
-                   <p class="text-gray-500 text-sm">Một trong tứ trấn Thăng Long, trấn giữ phía Đông kinh thành.</p>
+                   <p class="text-gray-500 text-sm flex-grow text-justify">Một trong "Thăng Long Tứ Trấn", trấn giữ phía Đông kinh thành. Ngôi đền có kiến trúc điêu khắc gỗ tinh xảo bậc nhất.</p>
                </div>
 
                <!-- Card 3 -->
-               <div class="bg-white p-6 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group cursor-pointer">
+               <div class="bg-white p-6 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group cursor-pointer h-full flex flex-col">
                    <div class="w-14 h-14 bg-emerald-50 rounded-2xl flex items-center justify-center text-emerald-600 mb-6 group-hover:scale-110 transition-transform">
                        <i data-lucide="ticket" class="w-8 h-8"></i>
                    </div>
                    <h3 class="text-xl font-bold text-gray-900 mb-2">Nhà hát lớn</h3>
-                   <p class="text-gray-500 text-sm">Công trình kiến trúc Pháp độc đáo, biểu tượng văn hóa nghệ thuật.</p>
+                   <p class="text-gray-500 text-sm flex-grow text-justify">Mô phỏng nhà hát Opéra Garnier ở Paris, đây là thánh đường nghệ thuật và là điểm check-in sang trọng đậm chất Pháp.</p>
                </div>
 
                <!-- Card 4 -->
-               <div class="bg-white p-6 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group cursor-pointer">
+               <div class="bg-white p-6 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group cursor-pointer h-full flex flex-col">
                    <div class="w-14 h-14 bg-rose-50 rounded-2xl flex items-center justify-center text-rose-600 mb-6 group-hover:scale-110 transition-transform">
                        <i data-lucide="shopping-bag" class="w-8 h-8"></i>
                    </div>
                    <h3 class="text-xl font-bold text-gray-900 mb-2">Chợ Đồng Xuân</h3>
-                   <p class="text-gray-500 text-sm">Khu chợ sầm uất nhất, nơi giao thương lâu đời của người Hà Nội.</p>
+                   <p class="text-gray-500 text-sm flex-grow text-justify">Khu chợ đầu mối lớn nhất miền Bắc. Nơi bạn có thể tìm thấy mọi thứ và thưởng thức ẩm thực ngõ chợ trứ danh.</p>
                </div>
            </div>
        </div>
@@ -297,8 +361,9 @@
    <section id="cuisine" class="section-padding bg-hanoi-dark text-white">
        <div class="max-w-7xl mx-auto px-4">
            <div class="text-center mb-12">
-               <span class="text-hanoi-gold font-bold uppercase tracking-widest text-sm">Tinh hoa Ẩm thực</span>
-               <h2 class="font-serif text-3xl md:text-4xl font-bold mt-2">Hương vị Phố Cổ</h2>
+               <span class="text-hanoi-gold font-bold uppercase tracking-widest text-sm">Ẩm thực đường phố</span>
+               <h2 class="font-serif text-3xl md:text-4xl font-bold mt-2">Hương vị Phố Cổ khó quên</h2>
+               <p class="text-gray-400 mt-2">Ăn gì ở phố cổ? Những món ngon đã được vinh danh trên bản đồ ẩm thực thế giới.</p>
            </div>
 
            <!-- Bento Grid -->
@@ -310,12 +375,15 @@
                         <i data-lucide="soup" class="w-48 h-48 text-white"></i>
                    </div>
                    <div>
-                       <div class="bg-hanoi-gold text-hanoi-dark font-bold text-xs py-1 px-3 rounded-full inline-block mb-3">Must Try</div>
+                       <div class="bg-hanoi-gold text-hanoi-dark font-bold text-xs py-1 px-3 rounded-full inline-block mb-3">Michelin Guide</div>
                        <h3 class="text-3xl font-serif font-bold mb-2">Phở Bò Gia Truyền</h3>
-                       <p class="text-gray-400 max-w-sm">Hương vị nước dùng thanh ngọt, bánh phở mềm dẻo. Một buổi sáng Hà Nội không thể thiếu bát phở nóng hổi.</p>
+                       <p class="text-gray-400 max-w-lg text-justify leading-relaxed">
+                           Nhắc đến ẩm thực Hà Nội là nhắc đến Phở. Tại phố cổ, bạn hãy thử Phở Bát Đàn, Phở Thìn Lò Đúc hay Phở Lý Quốc Sư. Nước dùng ninh từ xương ống ngọt thanh, bánh phở thái tay mềm dẻo quyện với thịt bò tái lăn thơm nức mũi.
+                       </p>
                    </div>
                    <div class="flex items-center gap-4 mt-4">
-                       <span class="text-xl font-bold text-hanoi-gold">45.000đ - 60.000đ</span>
+                       <span class="text-xl font-bold text-hanoi-gold">45.000đ - 90.000đ</span>
+                       <a href="https://taihanoi.github.io/phoco/" class="text-sm text-gray-400 hover:text-white underline flex items-center gap-1">Xem địa chỉ quán ngon <i data-lucide="arrow-up-right" class="w-3 h-3"></i></a>
                    </div>
                </div>
 
@@ -325,7 +393,7 @@
                        <i data-lucide="coffee" class="w-6 h-6"></i>
                    </div>
                    <h3 class="text-xl font-bold">Cà phê trứng</h3>
-                   <p class="text-gray-600 text-sm mt-1">Béo ngậy, thơm lừng góc phố.</p>
+                   <p class="text-gray-600 text-sm mt-1">Vị đắng cafe hòa quyện vị béo ngậy của trứng đánh bông (Giảng, Đinh).</p>
                </div>
 
                <!-- Item 3 - Bun Cha -->
@@ -334,7 +402,7 @@
                        <i data-lucide="utensils" class="w-6 h-6"></i>
                    </div>
                    <h3 class="text-xl font-bold">Bún Chả</h3>
-                   <p class="text-white/80 text-sm mt-1">Thịt nướng than hoa đậm đà.</p>
+                   <p class="text-white/80 text-sm mt-1">Thịt nướng than hoa kẹp que tre, chấm nước mắm chua ngọt (Hàng Mành, Hương Liên).</p>
                </div>
            </div>
        </div>
@@ -346,10 +414,10 @@
            <div class="grid md:grid-cols-12 gap-10">
                <div class="md:col-span-4">
                    <h2 class="font-serif text-3xl font-bold text-hanoi-dark mb-6">Nét văn hóa <br>đặc trưng</h2>
-                   <p class="text-gray-600 mb-8">
-                       Phố cổ không chỉ là những ngôi nhà, mà là lối sống. Là tiếng rao đêm, là quán trà đá vỉa hè, là những làng nghề thủ công còn sót lại.
+                   <p class="text-gray-600 mb-8 text-justify">
+                       Văn hóa phố cổ là sự tổng hòa giữa nếp sống thanh lịch của người Tràng An và sự xô bồ của phố thị. Đó là văn hóa "ngõ nhỏ, phố nhỏ", là tiếng rao đêm, và những quán trà đá vỉa hè - nơi cập nhật mọi tin tức nhanh hơn báo đài.
                    </p>
-                   <a href="#" class="inline-flex items-center text-hanoi-red font-bold hover:underline">Tìm hiểu thêm <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i></a>
+                   <a href="https://taihanoi.github.io/phoco/" class="inline-flex items-center text-hanoi-red font-bold hover:underline">Tìm hiểu thêm <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i></a>
                </div>
                <div class="md:col-span-8 space-y-4">
                    <!-- Culture Item 1 -->
@@ -359,7 +427,7 @@
                        </div>
                        <div>
                            <h3 class="font-bold text-lg text-gray-900">Phố Nghề Thủ Công</h3>
-                           <p class="text-gray-500 text-sm">Hàng Mã (đồ giấy), Hàng Bạc (kim hoàn), Hàng Thiếc...</p>
+                           <p class="text-gray-500 text-sm">Mỗi con phố gắn với một nghề: Hàng Mã (đồ vàng mã, trang trí), Hàng Bạc (chế tác kim hoàn), Lãn Ông (Đông y)...</p>
                        </div>
                    </div>
                    <!-- Culture Item 2 -->
@@ -369,7 +437,7 @@
                        </div>
                        <div>
                            <h3 class="font-bold text-lg text-gray-900">Văn hóa Trà đá & Vỉa hè</h3>
-                           <p class="text-gray-500 text-sm">Nơi những câu chuyện đời thường được sẻ chia mỗi ngày.</p>
+                           <p class="text-gray-500 text-sm">Một nét văn hóa bình dân nhưng đầy quyến rũ. Chỉ cần một chiếc ghế nhựa và cốc trà 3.000đ là đủ cho một buổi chiều.</p>
                        </div>
                    </div>
                    <!-- Culture Item 3 -->
@@ -378,8 +446,8 @@
                             <i data-lucide="music" class="w-8 h-8"></i>
                        </div>
                        <div>
-                           <h3 class="font-bold text-lg text-gray-900">Ca Trù & Xẩm</h3>
-                           <p class="text-gray-500 text-sm">Nghệ thuật âm nhạc dân gian tại đền Bạch Mã hoặc các trung tâm văn hóa.</p>
+                           <h3 class="font-bold text-lg text-gray-900">Nghệ thuật dân gian</h3>
+                           <p class="text-gray-500 text-sm">Thưởng thức Ca Trù tại đền Quan Đế, Xẩm chợ Đồng Xuân hay Múa Rối Nước tại nhà hát Thăng Long.</p>
                        </div>
                    </div>
                </div>
@@ -391,8 +459,9 @@
    <section id="stay" class="section-padding bg-white">
        <div class="max-w-7xl mx-auto px-4">
            <div class="text-center mb-12">
-               <span class="text-hanoi-red font-bold uppercase tracking-widest text-sm">Nghỉ ngơi</span>
-               <h2 class="font-serif text-3xl md:text-4xl font-bold text-hanoi-dark mt-2">Lưu trú tại Phố Cổ</h2>
+               <span class="text-hanoi-red font-bold uppercase tracking-widest text-sm">Lưu trú</span>
+               <h2 class="font-serif text-3xl md:text-4xl font-bold text-hanoi-dark mt-2">Top khách sạn Phố Cổ</h2>
+               <p class="text-gray-500 mt-2">Lựa chọn nơi nghỉ ngơi phù hợp để thuận tiện di chuyển khám phá 36 phố phường.</p>
            </div>
            
            <div class="grid md:grid-cols-3 gap-8">
@@ -403,11 +472,11 @@
                    </div>
                    <div class="p-6">
                        <div class="flex justify-between items-center mb-2">
-                           <span class="text-xs font-bold text-purple-600 bg-purple-50 px-2 py-1 rounded">Sang trọng</span>
+                           <span class="text-xs font-bold text-purple-600 bg-purple-50 px-2 py-1 rounded">Cao cấp</span>
                            <div class="flex text-yellow-400">★★★★★</div>
                        </div>
                        <h3 class="text-xl font-bold mb-2">Boutique Hotel</h3>
-                       <p class="text-gray-500 text-sm mb-4">Các khách sạn nhỏ nhưng thiết kế tinh tế, đậm chất Indochine.</p>
+                       <p class="text-gray-500 text-sm mb-4">Trải nghiệm không gian Indochine sang trọng, spa thư giãn và view nhìn ra hồ hoặc phố cổ.</p>
                        <div class="border-t border-gray-100 pt-4 flex justify-between items-center">
                            <span class="font-bold text-hanoi-dark">Từ 1.500k/đêm</span>
                            <button class="w-8 h-8 rounded-full bg-gray-900 text-white flex items-center justify-center hover:bg-hanoi-red"><i data-lucide="arrow-up-right" class="w-4 h-4"></i></button>
@@ -426,7 +495,7 @@
                            <div class="flex text-yellow-400">★★★★</div>
                        </div>
                        <h3 class="text-xl font-bold mb-2">Homestay trong ngõ</h3>
-                       <p class="text-gray-500 text-sm mb-4">Sống như người Hà Nội gốc trong những căn nhà nhỏ nằm sâu trong ngõ.</p>
+                       <p class="text-gray-500 text-sm mb-4">Sống như người bản địa trong những căn nhà nhỏ (Tiny House) nằm sâu trong ngõ.</p>
                         <div class="border-t border-gray-100 pt-4 flex justify-between items-center">
                            <span class="font-bold text-hanoi-dark">Từ 600k/đêm</span>
                            <button class="w-8 h-8 rounded-full bg-gray-900 text-white flex items-center justify-center hover:bg-hanoi-red"><i data-lucide="arrow-up-right" class="w-4 h-4"></i></button>
@@ -445,7 +514,7 @@
                            <div class="flex text-yellow-400">★★★</div>
                        </div>
                        <h3 class="text-xl font-bold mb-2">Dorm / Hostel</h3>
-                       <p class="text-gray-500 text-sm mb-4">Phù hợp cho dân du lịch bụi, giao lưu kết bạn quốc tế.</p>
+                       <p class="text-gray-500 text-sm mb-4">Lựa chọn hàng đầu cho dân du lịch bụi (Backpackers), khu vực Tạ Hiện - Mã Mây.</p>
                         <div class="border-t border-gray-100 pt-4 flex justify-between items-center">
                            <span class="font-bold text-hanoi-dark">Từ 200k/đêm</span>
                            <button class="w-8 h-8 rounded-full bg-gray-900 text-white flex items-center justify-center hover:bg-hanoi-red"><i data-lucide="arrow-up-right" class="w-4 h-4"></i></button>
@@ -461,7 +530,7 @@
        <div class="max-w-4xl mx-auto px-4">
             <div class="text-center mb-12">
                <span class="text-hanoi-green font-bold uppercase tracking-widest text-sm">Di chuyển</span>
-               <h2 class="font-serif text-3xl font-bold text-hanoi-dark mt-2">Phương tiện tham quan</h2>
+               <h2 class="font-serif text-3xl font-bold text-hanoi-dark mt-2">Phương tiện tham quan phố cổ</h2>
            </div>
            
            <div class="space-y-4">
@@ -472,7 +541,7 @@
                    </div>
                    <div class="ml-4 flex-1">
                        <h4 class="font-bold text-lg">Xích Lô</h4>
-                       <p class="text-sm text-gray-500">Trải nghiệm chậm rãi, ngắm phố phường cổ kính.</p>
+                       <p class="text-sm text-gray-500">Nét đặc trưng du lịch Hà Nội. Thích hợp để quay phim, chụp ảnh và ngắm phố phường chậm rãi.</p>
                    </div>
                    <span class="font-bold text-gray-900">~200k/giờ</span>
                </div>
@@ -484,7 +553,7 @@
                    </div>
                    <div class="ml-4 flex-1">
                        <h4 class="font-bold text-lg">Xe Điện</h4>
-                       <p class="text-sm text-gray-500">Đi quanh hồ và các tuyến phố chính, sạch sẽ và thoáng mát.</p>
+                       <p class="text-sm text-gray-500">Phương tiện xanh, đi qua 28 tuyến phố thương mại và di tích lịch sử quanh hồ Gươm.</p>
                    </div>
                    <span class="font-bold text-gray-900">~35k/vé</span>
                </div>
@@ -495,8 +564,8 @@
                        <i data-lucide="footprints" class="w-6 h-6"></i>
                    </div>
                    <div class="ml-4 flex-1">
-                       <h4 class="font-bold text-lg">Đi bộ (Cuối tuần)</h4>
-                       <p class="text-sm text-gray-500">Phố đi bộ quanh Hồ Gươm vào T6, T7 và CN.</p>
+                       <h4 class="font-bold text-lg">Đi bộ (Walking Tour)</h4>
+                       <p class="text-sm text-gray-500">Cách tốt nhất để len lỏi vào các ngõ nhỏ. Đặc biệt thú vị vào dịp Phố đi bộ cuối tuần.</p>
                    </div>
                    <span class="font-bold text-gray-900">Miễn phí</span>
                </div>
@@ -512,8 +581,10 @@
        <div class="max-w-7xl mx-auto px-4 relative z-10">
            <div class="grid md:grid-cols-2 gap-16">
                <div>
-                   <h2 class="font-serif text-3xl md:text-5xl font-bold mb-6">Gợi ý lịch trình <br><span class="text-hanoi-gold">1 ngày</span></h2>
-                   <p class="text-gray-400 mb-8 text-lg">Khám phá trọn vẹn tinh hoa phố cổ từ sáng sớm đến đêm muộn.</p>
+                   <h2 class="font-serif text-3xl md:text-5xl font-bold mb-6">Gợi ý lịch trình <br><span class="text-hanoi-gold">1 ngày (24h)</span></h2>
+                   <p class="text-gray-400 mb-8 text-lg text-justify">
+                       Để cảm nhận trọn vẹn Hà Nội, bạn cần thức dậy thật sớm và đi ngủ thật muộn. Dưới đây là lịch trình được tối ưu hóa cho du khách lần đầu đến thủ đô.
+                   </p>
                    <a href="#contact" class="px-8 py-3 bg-white text-hanoi-dark rounded-full font-bold hover:bg-hanoi-gold transition-colors inline-block">Đặt Tour Riêng</a>
                </div>
 
@@ -524,189 +595,153 @@
                    <!-- Morning -->
                    <div class="relative pl-12">
                        <div class="absolute left-0 top-1 w-8 h-8 bg-hanoi-gold rounded-full flex items-center justify-center text-hanoi-dark font-bold text-xs shadow-glow">S</div>
-                       <h4 class="text-xl font-bold text-hanoi-gold">Buổi Sáng</h4>
-                       <p class="text-gray-300 mt-1">Ăn phở Bát Đàn - Cafe Đinh - Dạo quanh Hồ Gươm - Thăm đền Ngọc Sơn.</p>
+                       <h4 class="text-xl font-bold text-hanoi-gold">Buổi Sáng (6:00 - 11:00)</h4>
+                       <p class="text-gray-300 mt-1 text-sm">Ăn phở Bát Đàn - Cafe Đinh ngắm Hồ Gươm - Thăm đền Ngọc Sơn & Tượng đài Lý Thái Tổ.</p>
                    </div>
 
                    <!-- Afternoon -->
                    <div class="relative pl-12">
                        <div class="absolute left-0 top-1 w-8 h-8 bg-hanoi-red rounded-full flex items-center justify-center text-white font-bold text-xs">C</div>
-                       <h4 class="text-xl font-bold text-hanoi-red">Buổi Chiều</h4>
-                       <p class="text-gray-300 mt-1">Ăn bún chả Hàng Mành - Chợ Đồng Xuân - Mua sắm tại Hàng Gai - Thăm Nhà Cổ 87 Mã Mây.</p>
+                       <h4 class="text-xl font-bold text-hanoi-red">Buổi Chiều (12:00 - 17:00)</h4>
+                       <p class="text-gray-300 mt-1 text-sm">Ăn bún chả Hàng Mành - Mua sắm tại chợ Đồng Xuân - Tham quan Nhà Cổ 87 Mã Mây - Check-in Ô Quan Chưởng.</p>
                    </div>
 
                    <!-- Evening -->
                    <div class="relative pl-12">
                        <div class="absolute left-0 top-1 w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold text-xs">T</div>
-                       <h4 class="text-xl font-bold text-indigo-400">Buổi Tối</h4>
-                       <p class="text-gray-300 mt-1">Phố Tạ Hiện (Phố bia) - Chợ đêm (Cuối tuần) - Ăn vặt ngõ Tạm Thương.</p>
+                       <h4 class="text-xl font-bold text-indigo-400">Buổi Tối (18:00 - 23:00)</h4>
+                       <p class="text-gray-300 mt-1 text-sm">Phố Tạ Hiện (Phố bia) - Chợ đêm (Cuối tuần) - Ăn vặt ngõ Tạm Thương (Nem chua rán).</p>
                    </div>
                </div>
            </div>
        </div>
    </section>
 
-    <!-- SECTION 10: TIPS & CONTACT -->
+   <!-- SECTION 10: TIPS & CONTACT (Modified: Contact Info Removed) -->
    <section id="contact" class="section-padding bg-hanoi-cream">
-       <div class="max-w-5xl mx-auto px-4">
+       <div class="max-w-4xl mx-auto px-4">
             <div class="bg-white rounded-[2.5rem] shadow-ultra overflow-hidden">
-                <div class="grid md:grid-cols-2">
-                    <div class="p-10 md:p-14">
-                        <h2 class="font-serif text-3xl font-bold text-hanoi-dark mb-4">Đăng ký nhận tin</h2>
-                        <p class="text-gray-500 mb-8">Nhận những gợi ý du lịch, mã giảm giá khách sạn và bản đồ ẩm thực phố cổ mới nhất.</p>
-                       
-                        <form class="space-y-4" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã đăng ký!');">
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Họ tên</label>
-                                <input type="text" class="w-full px-4 py-3 rounded-xl bg-gray-50 border-transparent focus:bg-white focus:ring-2 focus:ring-hanoi-gold focus:border-transparent transition-all outline-none" placeholder="Nguyễn Văn A">
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                                <input type="email" class="w-full px-4 py-3 rounded-xl bg-gray-50 border-transparent focus:bg-white focus:ring-2 focus:ring-hanoi-gold focus:border-transparent transition-all outline-none" placeholder="email@example.com">
-                            </div>
-                            <button class="w-full py-4 bg-hanoi-dark text-white font-bold rounded-xl hover:bg-hanoi-red transition-all shadow-lg mt-2">
-                                Gửi thông tin
-                            </button>
-                        </form>
-                    </div>
+                <!-- Centered Layout since Contact Info column is removed -->
+                <div class="p-10 md:p-16 text-center">
+                    <h2 class="font-serif text-3xl font-bold text-hanoi-dark mb-4">Đăng ký nhận cẩm nang du lịch</h2>
+                    <p class="text-gray-500 mb-8 max-w-lg mx-auto">Để lại email để nhận E-book "Bản đồ ẩm thực Phố Cổ" và mã giảm giá khách sạn độc quyền.</p>
                    
-                    <div class="bg-hanoi-gold/20 p-10 md:p-14 flex flex-col justify-center">
-                       <h3 class="font-bold text-xl text-hanoi-dark mb-6">Thông tin liên hệ</h3>
-                       <div class="space-y-6">
-                           <div class="flex items-start gap-4">
-                               <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-hanoi-red shadow-sm">
-                                   <i data-lucide="map-pin" class="w-5 h-5"></i>
-                               </div>
-                               <div>
-                                   <p class="font-bold text-hanoi-dark">Trung tâm hỗ trợ du khách</p>
-                                   <p class="text-sm text-gray-600">28 Hàng Dầu, Hoàn Kiếm, Hà Nội</p>
-                               </div>
-                           </div>
-
-                            <div class="flex items-start gap-4">
-                               <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-hanoi-red shadow-sm">
-                                   <i data-lucide="phone" class="w-5 h-5"></i>
-                               </div>
-                               <div>
-                                   <p class="font-bold text-hanoi-dark">Hotline</p>
-                                   <p class="text-sm text-gray-600">024 3926 XXXX</p>
-                               </div>
-                           </div>
-
-                            <div class="flex items-start gap-4">
-                               <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-hanoi-red shadow-sm">
-                                   <i data-lucide="mail" class="w-5 h-5"></i>
-                               </div>
-                               <div>
-                                   <p class="font-bold text-hanoi-dark">Email</p>
-                                   <p class="text-sm text-gray-600">support@hanoioldquarter.vn</p>
-                               </div>
-                           </div>
-                       </div>
-                    </div>
+                    <form class="space-y-4 max-w-md mx-auto" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã đăng ký!');">
+                        <div class="text-left">
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Họ tên</label>
+                            <input type="text" class="w-full px-4 py-3 rounded-xl bg-gray-50 border-transparent focus:bg-white focus:ring-2 focus:ring-hanoi-gold focus:border-transparent transition-all outline-none" placeholder="Nguyễn Văn A">
+                        </div>
+                        <div class="text-left">
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input type="email" class="w-full px-4 py-3 rounded-xl bg-gray-50 border-transparent focus:bg-white focus:ring-2 focus:ring-hanoi-gold focus:border-transparent transition-all outline-none" placeholder="email@example.com">
+                        </div>
+                        <button class="w-full py-4 bg-hanoi-dark text-white font-bold rounded-xl hover:bg-hanoi-red transition-all shadow-lg mt-2">
+                            Gửi thông tin & Nhận E-book
+                        </button>
+                    </form>
                 </div>
             </div>
        </div>
    </section>
 
-   <!-- FOOTER (Links matching Menu) -->
-   <footer class="bg-hanoi-dark text-white pt-16 pb-8 border-t border-white/10">
-       <div class="max-w-7xl mx-auto px-4">
-           <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-12">
-               <div class="col-span-2 lg:col-span-2">
-                   <span class="font-serif text-2xl font-bold text-white tracking-tight">Hanoi<span class="text-hanoi-gold">OldQuarter</span></span>
-                   <p class="text-gray-400 mt-4 max-w-sm">
-                       Kết nối quá khứ và hiện tại. Website cung cấp thông tin du lịch chính thống về khu vực Phố Cổ Hà Nội.
-                   </p>
-               </div>
-               
-               <!-- Links Column 1 -->
-               <div>
-                   <h4 class="font-bold text-lg mb-4">Khám phá</h4>
-                   <ul class="space-y-2 text-gray-400">
-                       <li><a href="#intro" class="hover:text-hanoi-gold transition-colors">Giới thiệu</a></li>
-                       <li><a href="#history" class="hover:text-hanoi-gold transition-colors">Lịch sử</a></li>
-                       <li><a href="#destinations" class="hover:text-hanoi-gold transition-colors">Địa điểm</a></li>
-                       <li><a href="#culture" class="hover:text-hanoi-gold transition-colors">Văn hóa</a></li>
-                   </ul>
-               </div>
+  <!-- FOOTER (Links matching Menu with Icons) -->
+  <footer class="bg-hanoi-dark text-white pt-16 pb-8 border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4">
+          <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-12">
+              <div class="col-span-2 lg:col-span-2">
+                  <span class="font-serif text-2xl font-bold text-white tracking-tight">Hanoi<span class="text-hanoi-gold">OldQuarter</span></span>
+                  <p class="text-gray-400 mt-4 max-w-sm text-sm">
+                      Website cung cấp thông tin du lịch chính thống về khu vực Phố Cổ Hà Nội. Kết nối giá trị di sản với nhịp sống hiện đại.
+                  </p>
+              </div>
+             
+              <!-- Links Column 1 -->
+              <div>
+                  <h4 class="font-bold text-lg mb-4">Khám phá</h4>
+                  <ul class="space-y-2 text-gray-400 text-sm">
+                      <li><a href="#intro" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="info" class="w-4 h-4"></i> Giới thiệu</a></li>
+                      <li><a href="#history" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="scroll" class="w-4 h-4"></i> Lịch sử</a></li>
+                      <li><a href="#destinations" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i> Địa điểm</a></li>
+                      <li><a href="#culture" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="flower" class="w-4 h-4"></i> Văn hóa</a></li>
+                  </ul>
+              </div>
 
-               <!-- Links Column 2 -->
-               <div>
-                   <h4 class="font-bold text-lg mb-4">Dịch vụ</h4>
-                   <ul class="space-y-2 text-gray-400">
-                        <li><a href="#cuisine" class="hover:text-hanoi-gold transition-colors">Ẩm thực</a></li>
-                       <li><a href="#stay" class="hover:text-hanoi-gold transition-colors">Lưu trú</a></li>
-                       <li><a href="#transport" class="hover:text-hanoi-gold transition-colors">Di chuyển</a></li>
-                        <li><a href="#schedule" class="hover:text-hanoi-gold transition-colors">Lịch trình</a></li>
-                   </ul>
-               </div>
+              <!-- Links Column 2 -->
+              <div>
+                  <h4 class="font-bold text-lg mb-4">Dịch vụ</h4>
+                  <ul class="space-y-2 text-gray-400 text-sm">
+                       <li><a href="#cuisine" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="utensils" class="w-4 h-4"></i> Ẩm thực</a></li>
+                      <li><a href="#stay" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="bed" class="w-4 h-4"></i> Lưu trú</a></li>
+                      <li><a href="#transport" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="bus" class="w-4 h-4"></i> Di chuyển</a></li>
+                       <li><a href="#schedule" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="calendar" class="w-4 h-4"></i> Lịch trình</a></li>
+                  </ul>
+              </div>
 
-               <!-- Links Column 3 -->
-               <div>
-                   <h4 class="font-bold text-lg mb-4">Hỗ trợ</h4>
-                   <ul class="space-y-2 text-gray-400">
-                        <li><a href="#tips" class="hover:text-hanoi-gold transition-colors">Lưu ý</a></li>
-                       <li><a href="#contact" class="hover:text-hanoi-gold transition-colors">Liên hệ</a></li>
-                       <li><a href="#" class="hover:text-hanoi-gold transition-colors">Bảo mật</a></li>
-                       <li><a href="#" class="hover:text-hanoi-gold transition-colors">Điều khoản</a></li>
-                   </ul>
-               </div>
-           </div>
+              <!-- Links Column 3 -->
+              <div>
+                  <h4 class="font-bold text-lg mb-4">Hỗ trợ</h4>
+                  <ul class="space-y-2 text-gray-400 text-sm">
+                       <li><a href="#tips" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="lightbulb" class="w-4 h-4"></i> Lưu ý</a></li>
+                      <li><a href="#contact" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4"></i> Liên hệ</a></li>
+                      <li><a href="#" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="shield" class="w-4 h-4"></i> Bảo mật</a></li>
+                      <li><a href="#" class="hover:text-hanoi-gold transition-colors flex items-center gap-2"><i data-lucide="file-check" class="w-4 h-4"></i> Điều khoản</a></li>
+                  </ul>
+              </div>
+          </div>
 
-           <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-               <p>© 2024 Hanoi Old Quarter. All rights reserved.</p>
-               <div class="flex space-x-6 mt-4 md:mt-0">
-                   <a href="#" class="hover:text-white"><i data-lucide="facebook" class="w-5 h-5"></i></a>
-                   <a href="#" class="hover:text-white"><i data-lucide="instagram" class="w-5 h-5"></i></a>
-                   <a href="#" class="hover:text-white"><i data-lucide="twitter" class="w-5 h-5"></i></a>
-               </div>
-           </div>
-       </div>
-   </footer>
+          <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+              <p>© 2024 Hanoi Old Quarter. Designed by <a href="https://taihanoi.github.io/" class="text-hanoi-gold hover:underline">TaiHanoi</a>.</p>
+              <div class="flex space-x-6 mt-4 md:mt-0">
+                  <a href="#" class="hover:text-white"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                  <a href="#" class="hover:text-white"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                  <a href="#" class="hover:text-white"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+              </div>
+          </div>
+      </div>
+  </footer>
 
-   <!-- Back to top button -->
-   <button id="backToTop" class="fixed bottom-8 right-8 bg-hanoi-gold text-hanoi-dark p-3 rounded-full shadow-lg translate-y-20 opacity-0 transition-all duration-300 z-40 hover:bg-white">
-       <i data-lucide="arrow-up" class="w-6 h-6"></i>
-   </button>
+  <!-- Back to top button -->
+  <button id="backToTop" class="fixed bottom-8 right-8 bg-hanoi-gold text-hanoi-dark p-3 rounded-full shadow-lg translate-y-20 opacity-0 transition-all duration-300 z-40 hover:bg-white">
+      <i data-lucide="arrow-up" class="w-6 h-6"></i>
+  </button>
 
-   <script>
-       // Initialize Icons
-       lucide.createIcons();
+  <script>
+      // Initialize Icons
+      lucide.createIcons();
 
-       // Mobile Menu Toggle
-       const btn = document.getElementById('mobile-menu-btn');
-       const menu = document.getElementById('mobile-menu');
+      // Mobile Menu Toggle
+      const btn = document.getElementById('mobile-menu-btn');
+      const menu = document.getElementById('mobile-menu');
 
-       btn.addEventListener('click', () => {
-           menu.classList.toggle('hidden');
-       });
+      btn.addEventListener('click', () => {
+          menu.classList.toggle('hidden');
+      });
 
-       // Sticky Navbar Effect & Back to Top
-       const navbar = document.getElementById('navbar');
-       const backToTop = document.getElementById('backToTop');
+      // Sticky Navbar Effect & Back to Top
+      const navbar = document.getElementById('navbar');
+      const backToTop = document.getElementById('backToTop');
 
-       window.addEventListener('scroll', () => {
-           if (window.scrollY > 50) {
-               navbar.classList.add('shadow-sm');
-               navbar.style.background = "rgba(255, 255, 255, 0.95)";
-           } else {
-               navbar.classList.remove('shadow-sm');
-               navbar.style.background = "rgba(255, 255, 255, 0.8)";
-           }
+      window.addEventListener('scroll', () => {
+          if (window.scrollY > 50) {
+              navbar.classList.add('shadow-sm');
+              navbar.style.background = "rgba(255, 255, 255, 0.95)";
+          } else {
+              navbar.classList.remove('shadow-sm');
+              navbar.style.background = "rgba(255, 255, 255, 0.8)";
+          }
 
-           if (window.scrollY > 500) {
-               backToTop.classList.remove('translate-y-20', 'opacity-0');
-           } else {
-               backToTop.classList.add('translate-y-20', 'opacity-0');
-           }
-       });
+          if (window.scrollY > 500) {
+              backToTop.classList.remove('translate-y-20', 'opacity-0');
+          } else {
+              backToTop.classList.add('translate-y-20', 'opacity-0');
+          }
+      });
 
-       backToTop.addEventListener('click', () => {
-           window.scrollTo({ top: 0, behavior: 'smooth' });
-       });
-   </script>
-   <script src="https://taihanoi.github.io/nhadatchinhchu/realestate_ai.js"></script>
+      backToTop.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+  </script>
+  <script src="https://taihanoi.github.io/nhadatchinhchu/realestate_ai.js"></script>
 
 </body>
 </html>
